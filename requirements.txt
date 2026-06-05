@@ -1,0 +1,9 @@
+Content:
+
+pandas
+numpy
+matplotlib
+scikit-learn
+joblib
+ibm-watsonx-ai
+ibm-watson-studio-lib
