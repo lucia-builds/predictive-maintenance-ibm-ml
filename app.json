@@ -1,0 +1,40 @@
+{
+  "name": "Predictive Maintenance of Industrial Machinery",
+  "description": "A machine learning-based predictive maintenance system that predicts machine failure types using sensor data.",
+  "project_type": "Machine Learning",
+  "technology": [
+    "Python",
+    "Scikit-learn",
+    "IBM watsonx.ai Studio",
+    "IBM Cloud Object Storage",
+    "IBM watsonx.ai Runtime",
+    "Watson Machine Learning",
+    "IBM Granite Models"
+  ],
+  "model": {
+    "algorithm": "Random Forest Classifier",
+    "accuracy": "98.15%",
+    "prediction_classes": [
+      "No Failure",
+      "Heat Dissipation Failure",
+      "Power Failure",
+      "Overstrain Failure",
+      "Tool Wear Failure",
+      "Random Failures"
+    ]
+  },
+  "deployment": {
+    "platform": "IBM watsonx.ai Runtime / Watson Machine Learning",
+    "deployment_type": "Online",
+    "status": "Deployed"
+  },
+  "input_features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "output": "Predicted machine failure type"
+}
